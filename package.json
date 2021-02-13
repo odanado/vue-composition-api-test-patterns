@@ -25,5 +25,10 @@
     "test:build": "yarn build --noEmit",
     "test:jest": "yarn jest --detectOpenHandles --forceExit",
     "test:lint": "eslint --ext .js,.ts --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/composition-api": "^0.19.1",
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.6.12"
   }
 }
